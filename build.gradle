@@ -30,8 +30,8 @@ sourceCompatibility = 1.8
 dependencies {
     compile('org.springframework.boot:spring-boot-starter')
     compile('org.springframework.boot:spring-boot-starter-web')
-    comppile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
+    compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
     compileOnly('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
-    testComppile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
+    testCompile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
 }
